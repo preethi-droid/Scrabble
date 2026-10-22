@@ -1,0 +1,8 @@
+build/
+SFML-VC/
+.vs/
+*.vcxproj
+*.sln
+*.vcxproj.filters
+*.vcxproj.user
+.cache/
