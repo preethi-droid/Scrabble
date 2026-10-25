@@ -96,7 +96,7 @@ void BoardView::draw(sf::RenderWindow& window, const SquareProvider& square) con
                          RectF{c.x, layout::kBoardY - 30.0f, c.w, 24.0f}, theme_.textColor);
         const RectF rr = boardCellRect(i, 0);
         drawCenteredText(window, theme_, std::to_string(i + 1), 16,
-                         RectF{layout::kBoardX - 22.0f, rr.y, 18.0f, rr.h}, theme_.textColor);
+                         RectF{layout::kBoardX - 30.0f, rr.y, 24.0f, rr.h}, theme_.textColor);
     }
 }
 

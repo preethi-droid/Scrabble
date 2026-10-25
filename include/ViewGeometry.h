@@ -12,13 +12,13 @@ namespace scrabble {
 namespace layout {
 
 // Board: 15 x 15 squares.
-constexpr float kBoardX = 20.0f;      // left edge of square (0,0)
+constexpr float kBoardX = 34.0f;      // left edge of square (0,0)
 constexpr float kBoardY = 40.0f;      // top edge of square (0,0); room above for A-O labels
 constexpr float kCellSize = 40.0f;
 constexpr float kBoardSide = kCellSize * BOARD_SIZE;   // 600
 
 // Rack: 7 slots in a row below the board.
-constexpr float kRackX = 20.0f;
+constexpr float kRackX = 34.0f;
 constexpr float kRackY = kBoardY + kBoardSide + 30.0f; // 670
 constexpr float kSlotSize = 50.0f;
 constexpr float kSlotGap = 8.0f;
